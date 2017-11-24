@@ -8,12 +8,15 @@ public class ShapeCollector {
     private List<Shape> shapes = new ArrayList<>();
 
     public void addShape(Shape shape) {
+
         shapes.add(shape);
     }
     public void removeShape(Shape shape) {
+
         shapes.remove(shape);
     }
-    public Shape getShape(int index) {
+    public Shape getShape(int index)
+    {
         return shapes.get(index);
     }
     public void showShapes() {

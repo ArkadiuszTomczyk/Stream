@@ -6,7 +6,7 @@ import org.junit.Test;
 public class ShapeCollectorTestSuite {
 
     @Test
-    public void testAddFigureAndGetFigure() {
+    public void testQuantityOfUsers() {
         //Given
         ShapeCollector shapeCollector = new ShapeCollector();
         Circle obj1 = new Circle("koło", 5);
@@ -23,7 +23,7 @@ public class ShapeCollectorTestSuite {
     }
 
     @Test
-    public void testRemoveFigure() {
+    public void testQuantityOfPosts() {
         //Given
         ShapeCollector shapeCollector = new ShapeCollector();
         Circle obj1 = new Circle("koło", 5);

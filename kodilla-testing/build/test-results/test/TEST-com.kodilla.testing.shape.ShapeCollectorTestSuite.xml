@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-20T11:51:05" hostname="DESKTOP-M8OJLM8" time="0.0">
+  <properties/>
+  <testcase name="testQuantityOfUsers" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testQuantityOfPosts" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <system-out><![CDATA[Circle{name ='koĹ‚o', radius = 5.0}
+Triangle{name ='trĂłjkÄ…t', width = 15.0, heigh t= 47.0}
+Square{name ='kwadrat', width = 15.0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

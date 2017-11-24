@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface Statistics {
 
-    List<String> userName();
+    List<String> getUserNames();
     int postCount();
     int commentCount();
 }

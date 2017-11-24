@@ -1,5 +1,7 @@
 package com.kodilla.testing.forum;
 
+import com.kodilla.testing.forum.statistics.Statistics;
+
 public class ForumComment {
     ForumPost forumPost;
     String commentBody;

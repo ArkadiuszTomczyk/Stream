@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface LibraryDatabase {
 
-    List<Book> listBookWithCondition(String titleFragment);
+
     // list books borrowed by libraryUser
     List<Book> listBookInHandsOf(LibraryUser libraryUser);
     // try to rent a book for libraryUser

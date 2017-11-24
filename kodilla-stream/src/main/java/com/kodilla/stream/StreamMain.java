@@ -25,6 +25,7 @@ public class StreamMain {
         expressionExecutor.exexuteExpression(3, 4, FunctionalCalculator::divideAByB);
 
 
+        
         PoemBeautifier poemBeautifier = new PoemBeautifier();
         System.out.println("Beautiful decoraton in action");
         poemBeautifier.beautiful(15, 123, (c, d) -> c - d);

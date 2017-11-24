@@ -5,7 +5,7 @@ public class LibraryUser {
     String lastname;
     String peselId;
 
-    public LibraryUser(String firstname, String lastname, String peselId) {
+    public LibraryUser(String firstname) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.peselId = peselId;

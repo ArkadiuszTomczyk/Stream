@@ -25,7 +25,7 @@ public class ForumUser {
         return userName;
     }
 
-    public char getUserSex(char m) {
+    public char getUserSex() {
         return userSex;
     }
 

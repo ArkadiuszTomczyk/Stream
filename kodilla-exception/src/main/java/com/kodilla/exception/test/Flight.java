@@ -1,4 +1,4 @@
-package test;
+package com.kodilla.exception.test;
 
 public class Flight {
     private String departureAirport;

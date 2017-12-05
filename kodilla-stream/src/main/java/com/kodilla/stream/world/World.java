@@ -5,26 +5,22 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class World {
-    private final Set<World> continents = new HashSet<>();
-    private final String contiNames;
+    private Set<Continent> continents = new HashSet<>();
 
-    public Set<World> getContinents() {
+    public Set<Continent> getContinents() {
         return continents;
     }
 
-    public World(String contiNames) {
-        this.contiNames = contiNames;
-    }
-
-    public String getContiNames() {
-        return contiNames;
+    public World() {
     }
 
     public void addContinent(Continent continent) {
+        continents.add(continent);
     }
-    public Set<String> getPeopleQuantity() {
+    public BigDecimal getPeopleQuantity() {
         return continents.stream()
-                .flatMap(continents -> continents.getPeopleQuantity().stream())
-                .reduce(BigDecimal.ZERO, )
+                .flatMap(continent -> continent.getCountries().stream())
+                .map(c -> c.getPeopleQuantity())
+                .reduce(BigDecimal.ZERO, (sum, delta) -> sum.add(delta));
     }
 }

@@ -1,24 +1,23 @@
 package com.kodilla.stream.world;
 
+import java.math.BigDecimal;
 import java.util.HashSet;
 import java.util.Set;
 
 public class Continent {
-    private final String countryName;
-    private final Set<Continent> countries = new HashSet<>();
+    private String continentName;
+    private Set<Country> countries = new HashSet<>();
 
     public Continent(String countryName) {
-        this.countryName = countryName;
+        this.continentName = countryName;
     }
 
-    public String getCountryName() {
-        return countryName;
-    }
-
-    public Set<Continent> getCountries() {
+    public Set<Country> getCountries() {
         return countries;
     }
 
     public void addCountry(Country country) {
+        countries.add(country);
     }
+
 }

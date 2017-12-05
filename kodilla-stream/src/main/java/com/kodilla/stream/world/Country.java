@@ -2,8 +2,8 @@ package com.kodilla.stream.world;
 import java.math.BigDecimal;
 
 public class Country {
-    String name;
-    BigDecimal peopleQuantity
+    private String name;
+    private BigDecimal peopleQuantity;
 
     public Country(String name, BigDecimal peopleQuantity) {
         this.name = name;

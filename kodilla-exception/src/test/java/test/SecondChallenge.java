@@ -1,6 +1,6 @@
 package test;
 
-public class SecondChallenge extends Exception {
+public class SecondChallenge extends ExceptionHandling {
     public String probablyIWillThrowException(double x, double y) throws Exception {
         if(x >= 2 || x < 1 || y == 1.5) {
             throw new Exception();

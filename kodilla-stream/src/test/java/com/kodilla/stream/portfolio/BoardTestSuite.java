@@ -136,10 +136,15 @@ public class BoardTestSuite {
         //Given
         Board project = prepareTestData();
         //When
-        List<TaskList> inProgressTasks = new ArrayList<>();
-        inProgressTasks.add(new TaskList("How LONG?!!"));
-        List<Task> tasks = project.getTaskLists().stream()
-                .filter(inProgressTasks::contains)
+        List<TaskList> done = new ArrayList<>();
+        done.add(new TaskList("In progress"));
+        double howLongTask = project.getTaskLists().stream()
+                .filter(done::contains)
                 .flatMap(av -> av.getTasks().stream())
+                .map(t -> LocalDate.now().toEpochDay() - t.getCreated().toEpochDay())
+                .mapToInt(l-> l.intValue())
+                .average().orElse(0);
+        //Then
+        Assert.assertEquals(10, howLongTask, 0);
     }
 }

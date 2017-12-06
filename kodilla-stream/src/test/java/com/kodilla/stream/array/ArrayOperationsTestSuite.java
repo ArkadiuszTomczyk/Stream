@@ -7,18 +7,18 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-//public class ArrayOperationsTestSuite {
-//    @Test
-//    public testGetAverage() {
-//        //Given
-//        List<ArrayOperations> average = new ArrayList<>();
-//
-//
-//        //When
-//
-//
-//        //Then
-//        Assert.assertEquals(new BigDecimal("13"), result);
-//
-//    }
-//}
+public class ArrayOperationsTestSuite {
+    @Test
+    public void testGetAverage() {
+        //Given
+        int[] littList = {15, 59,789, 1589,1};
+
+        //When
+        double avg = ArrayOperations.getAverage(littList);
+
+        //Then
+
+        Assert.assertEquals(1587, avg, 1);
+
+    }
+}

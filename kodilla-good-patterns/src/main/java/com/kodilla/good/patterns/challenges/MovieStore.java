@@ -25,8 +25,8 @@ class MovieStore {
         booksTitlesWithTranslations.put("AV", avengersTranslations);
         booksTitlesWithTranslations.put("FL", flashTranslations);
 
-        return booksTitlesWithTranslations.stream()
-                .flatMap(movie ->movie.getMovie().stream())
+//        return booksTitlesWithTranslations.stream()
+//                .flatMap(movie ->movie.getMovie().stream())
 
     }
 }

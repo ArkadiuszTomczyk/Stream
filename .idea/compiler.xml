@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kodilla-spring" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kodilla-course_main" target="1.8" />
       <module name="kodilla-course_test" target="1.8" />
@@ -8,6 +16,11 @@
       <module name="kodilla-exception_test" target="1.8" />
       <module name="kodilla-good-patterns_main" target="1.8" />
       <module name="kodilla-good-patterns_test" target="1.8" />
+      <module name="kodilla-spring" target="1.8" />
+      <module name="kodilla-spring-intro_main" target="1.8" />
+      <module name="kodilla-spring-intro_test" target="1.8" />
+      <module name="kodilla-spring_main" target="1.8" />
+      <module name="kodilla-spring_test" target="1.8" />
       <module name="kodilla-stream_main" target="1.8" />
       <module name="kodilla-stream_test" target="1.8" />
       <module name="kodilla-testing_main" target="1.8" />

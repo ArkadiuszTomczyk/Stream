@@ -11,14 +11,14 @@ public class ArrayOperationsTestSuite {
     @Test
     public void testGetAverage() {
         //Given
-        int[] littList = {15, 59,789, 1589,1};
+        Integer [] littList = {15, 59,789, 1589,1};
 
         //When
         double avg = ArrayOperations.getAverage(littList);
 
         //Then
 
-        Assert.assertEquals(1587, avg, 1);
+        Assert.assertEquals(490, avg, 1);
 
     }
 }

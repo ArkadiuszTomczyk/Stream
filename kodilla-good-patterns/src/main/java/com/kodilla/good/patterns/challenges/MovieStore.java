@@ -30,7 +30,7 @@ class MovieStore {
                  .flatMap(m -> m.getValue().stream())
                  .collect(Collectors.joining("!"));
 
-         System.out.println(booksTitlesWithTranslations);
 
     }
+
 }

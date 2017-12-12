@@ -3,6 +3,9 @@ package com.kodilla.good.patterns.challenges;
 import java.time.LocalDate;
 
 public class OrderRequestRetriever {
+
+
+
     public StoreRequest retrive() {
         String user = "John";
 

@@ -16,6 +16,7 @@ public class ProductOrderService {
 
     public OrderDto process(final StoreRequest storeRequest) {
         boolean isAvaliable = storeService.rent();
+        
 
         if (isAvaliable) {
             informationService.inform(storeRequest.getUser());

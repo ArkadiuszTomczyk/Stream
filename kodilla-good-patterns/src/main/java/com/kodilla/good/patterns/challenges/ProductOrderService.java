@@ -14,15 +14,14 @@ public class ProductOrderService {
         this.storeService = storeService;
     }
     public RentalDto process(final StoreRequest storeRequest) {
-        boolean isAvaliable = storeService.rent()...;
+        boolean isAvaliable = storeService.rent();
 
         if (isAvaliable) {
             informationService.inform(storeRequest.getUser());
-            rentalRepository.createOrder(storeRequest.getUser(), storeRequest.getFrom(), storeRequest.getTo());
+            rentalRepository.createOrder(storeRequest.getUser(), storeRequest.buyWhen());
             return new RentalDto(storeRequest.getUser(), true);
         } else {
             return new RentalDto(storeRequest.getUser(), false)
         }
-
     }
 }

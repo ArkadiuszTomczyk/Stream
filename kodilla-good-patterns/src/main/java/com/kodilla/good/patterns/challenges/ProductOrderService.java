@@ -6,21 +6,22 @@ public class ProductOrderService {
     private OrderRepository orderRepository;
     private StoreService storeService;
 
-    public ProductOrderService(InformationService informationService,
+    public ProductOrderService(StoreProcessor storeProcessor,
                                OrderRepository orderRepository,
-                               StoreService storeService) {
-        this.informationService = informationService;
+                               SmsService smsService) {
+        this.informationService = smsService;
         this.orderRepository = orderRepository;
-        this.storeService = storeService;
+        this.storeService = storeProcessor;
     }
 
     public OrderDto process(final StoreRequest storeRequest) {
         boolean isAvaliable = storeService.buy();
+        System.out.println("Processing order");
 
 
         if (isAvaliable) {
-            informationService.inform(storeRequest.getUser());
-            orderRepository.createOrder(storeRequest.getUser(), storeRequest.buyWhen());
+            informationService.inform();
+            orderRepository.createOrder();
             return new OrderDto(storeRequest.getUser(), true);
         } else {
             return new OrderDto(storeRequest.getUser(), false);

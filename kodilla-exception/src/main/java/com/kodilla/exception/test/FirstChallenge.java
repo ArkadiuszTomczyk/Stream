@@ -13,7 +13,7 @@ public class FirstChallenge extends Throwable {
         FirstChallenge firstChallenge = new FirstChallenge();
         double result;
 
-        try { result = firstChallenge.divide(1, 2);
+        try { result = firstChallenge.divide(1, 0);
             System.out.println(result);
 
         } catch (ArithmeticException e){

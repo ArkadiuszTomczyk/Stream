@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>kodilla-spring</name>
-	<description>training project</description>
+	<description>training for spring</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -4,7 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class DrawerTestSuite {
+
     @Test
+
     public void testDoDrawingWithCircle() {
         //Given
         Circle circle = new Circle();
@@ -23,6 +25,6 @@ public class DrawerTestSuite {
         Drawer drawer = new Drawer(triangle);
         String result = drawer.doDrawing();
         //Then
-        Assert.assertEquals("This is a triangle", result);
+        Assert.assertEquals("This is a Triangle", result);
     }
 }

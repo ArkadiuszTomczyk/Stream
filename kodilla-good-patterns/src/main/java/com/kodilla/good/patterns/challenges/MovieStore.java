@@ -29,8 +29,5 @@ class MovieStore {
         booksTitlesWithTranslations.put("FL", flashTranslations);
         return booksTitlesWithTranslations;
 
-
-
-
         }
  }

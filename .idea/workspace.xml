@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf509333-9e25-4810-821f-db9c05e415b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-rps_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-rps_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/Flight1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/AirNavigator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/MainAirport.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-exception/out/production/classes/com/kodilla/exception/test/SecondChallenge.class" afterPath="$PROJECT_DIR$/kodilla-exception/out/production/classes/com/kodilla/exception/test/SecondChallenge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsGame.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/StreamMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/beautifier/PoemBeautifier.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/MainAirport/FlightService.class" afterPath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/MainAirport/FlightService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/test/classes/com/kodilla/good/patterns/challenges/MovieStoreTest.class" afterPath="$PROJECT_DIR$/kodilla-good-patterns/out/test/classes/com/kodilla/good/patterns/challenges/MovieStoreTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/beautifier/PoemDecorator.class" afterPath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/beautifier/PoemDecorator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java" afterPath="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,17 +83,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Flight1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/Flight1.java">
+      <file leaf-file-name="PoemBeautifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PoemDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,8 +118,8 @@
       <file leaf-file-name="FlightService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+            <state relative-caret-position="735">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
@@ -115,11 +129,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RpsRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RpsRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="6">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpsGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="772">
+              <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -130,46 +172,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/Flight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightBrowser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FlightBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PoemDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -2007,10 +2009,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/Supplier.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/Order.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/GlutenFreeShop.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/ExtraFoodShop.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/HealthyShop.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/StoreMainClass.java" />
@@ -2049,15 +2047,19 @@
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/reader/ReaderConfig.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/reader/ReaderTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/reader/IfDayIsOddCondition.java" />
-        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java" />
         <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightNavigator.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/MainAirport.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/Flight.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/Flight1.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java" />
+        <option value="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsGame.java" />
         <option value="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java" />
+        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java" />
+        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" />
       </list>
     </option>
   </component>
@@ -2067,9 +2069,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1143" />
-    <option name="y" value="134" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-41" />
+    <option name="y" value="-20" />
     <option name="width" value="1936" />
     <option name="height" value="1028" />
   </component>
@@ -2248,6 +2250,30 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -2346,13 +2372,19 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2385,6 +2417,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.rps" />
       <recent name="Food2Door" />
       <recent name="com.kodilla.good.patterns.challenges" />
     </key>
@@ -2401,7 +2434,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlightService">
+  <component name="RunManager" selected="Application.StreamMain">
     <configuration name="FlightService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2433,48 +2466,23 @@
       <module name="kodilla-spring-web_main" />
       <envs />
     </configuration>
-    <configuration name="LibraryTestSuite.testSaveToDb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.library.*" />
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="kodilla-spring_test" />
+      <module name="kodilla-good-patterns_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.spring.library" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.library.LibraryTestSuite" />
-      <option name="METHOD_NAME" value="testSaveToDb" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-spring" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ReaderTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.reader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="kodilla-spring_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.spring.reader" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.reader.ReaderTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.good.patterns.challenges" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.MovieStoreTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-spring" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-good-patterns" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -2483,30 +2491,24 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ReaderTestSuite.testConditional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RpsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.reader.*" />
+          <option name="PATTERN" value="com.kodilla.rps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="kodilla-spring_test" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.rps.RpsRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.spring.reader" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.reader.ReaderTestSuite" />
-      <option name="METHOD_NAME" value="testConditional" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-spring" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="kodilla-rps_main" />
       <envs />
-      <patterns />
     </configuration>
     <configuration name="SecondChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -2525,6 +2527,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="kodilla-exception_main" />
+      <envs />
+    </configuration>
+    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.StreamMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="kodilla-stream_main" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -2623,19 +2644,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.KodillaSpringApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.KodillaSpringWebApplication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite.testConditional" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTestSuite.testSaveToDb" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SecondChallenge" />
-      <item index="6" class="java.lang.String" itemvalue="Application.FlightService" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SecondChallenge" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FlightService" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.StreamMain" />
+      <item index="6" class="java.lang.String" itemvalue="Application.RpsRunner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FlightService" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SecondChallenge" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTestSuite.testSaveToDb" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite.testConditional" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StreamMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RpsRunner" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlightService" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SecondChallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -2660,14 +2681,11 @@
       <workItem from="1511717514282" duration="95113000" />
       <workItem from="1512737732887" duration="43174000" />
       <workItem from="1513427516532" duration="19559000" />
-      <workItem from="1513635114989" duration="12442000" />
+      <workItem from="1513635114989" duration="20952000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTestSuite - 2017.12.17 at 22h 05m 11s.xml">
-      <configuration name="LibraryTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryTestSuite - 2017.12.17 at 22h 09m 16s.xml">
       <configuration name="LibraryTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -2689,6 +2707,9 @@
     <history-entry file="LibraryTestSuite_testSaveToDb - 2017.12.18 at 01h 06m 51s.xml">
       <configuration name="LibraryTestSuite.testSaveToDb" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieStoreTest - 2017.12.19 at 22h 28m 35s.xml">
+      <configuration name="MovieStoreTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ReaderTestSuite - 2017.12.18 at 00h 57m 34s.xml">
       <configuration name="ReaderTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -2697,7 +2718,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317521000" />
+    <option name="totallyTimeSpent" value="326031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2709,29 +2730,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1143" y="134" width="1936" height="1028" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="396" width="1908" height="263" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15342164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="396" width="1908" height="263" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.5073069" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14672686" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16445915" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1952596" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1942605" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314912" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25778732" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2739,7 +2760,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32560706" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2757,23 +2778,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Drawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-intro/src/test/java/com/kodilla/spring/intro/shape/DrawerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spriing/SpringRunner.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spriing/SpringRunnerTestSuite.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/SpringRunnerTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTestContextBootstrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -3011,14 +3015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -3062,14 +3058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/AirNavigator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -3107,10 +3095,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/StoreMainClass.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/MovieStoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3123,10 +3119,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/StoreMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/MainAirport/FlightService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="735">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
@@ -3135,11 +3139,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="6">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

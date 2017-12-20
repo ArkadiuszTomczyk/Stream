@@ -49,14 +49,8 @@ public class FlightService {
 
     public static void main (String[] args) {
         Flight1 flight1 = new Flight1("Berlin", "Moscow");
-        flight1.getArrival().hashCode().s
+        flight1.getArrival().hashCode();
 
-
-
-//        FlightService flightService = new FlightService();
-//        flightService.getFlight1sList().stream()
-//                .filter(m ->m.getArrival())
-//                .collect(Collectors.toList());
 
         System.out.println("Flight" );
     }

@@ -26,11 +26,11 @@ public class RpsGame {
     public void selectHumanChoice() {
         System.out.println("Select: (S)CISSORS, (P)APER, (R)OCK");
         switch (scanner.next()) {
-            case "S": humanChoice = SCISSORS;
+            case "S": case "s": humanChoice = SCISSORS;
             break;
-            case  "P": humanChoice = PAPER;
+            case  "P": case "p": humanChoice = PAPER;
             break;
-            case "R": humanChoice = ROCK;
+            case "R": case "r": humanChoice = ROCK;
             break;
             default:
                 System.out.println("Wrong selection!!");

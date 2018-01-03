@@ -1,10 +1,28 @@
 package com.kodilla.rps;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class RpsRunner {
+
+//    private boolean typeYourName (Scanner String) {
+//        System.out.println("Enter NUMBER OF PLAY ");
+//        switch (String.next()) {
+//            case java.lang.String.valueOf(typeYourName("name")):
+//                System.out.println("Hello");
+//                while (typeYourName("Enter NUMBER OF PLAY "))
+//                return true;
+//            case "":
+//                return true;
+//        }
+//        return true;
+//    }
+
+
+
+
     private boolean playAgain(Scanner scanner){
-        System.out.println("Want paly a game (Y) or  (N) ?");
+        System.out.println("Want play a game (Y) or  (N) ?");
         switch (scanner.next()){
             case "Y": case  "y":
                     System.out.println("Rock, Paper, Scissors!");

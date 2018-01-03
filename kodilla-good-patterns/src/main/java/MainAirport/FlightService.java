@@ -26,8 +26,8 @@ public class FlightService {
     }
 
     public FlightService(){
-        flight1s.add(new Flight1("Alaska", "Berlin"));
-        flight1s.add(new Flight1("Las vegas", "Alaska"));
+        flight1s.add(new Flight1("ALASKA", "Berlin"));
+        flight1s.add(new Flight1("Las vegas", "ALASKA"));
         flight1s.add(new Flight1("Las Angeles", "Berlin"));
         flight1s.add(new Flight1("Moscow", "Las vegas"));
         flight1s.add(new Flight1("Warszawa", "Moscow"));

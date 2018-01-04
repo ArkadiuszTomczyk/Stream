@@ -1,32 +1,43 @@
 package com.kodilla.spring.portfolio;
 
+import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
-
+import java.util.stream.IntStream;
+@SpringBootTest
+@RunWith(SpringRunner.class)
 public class BoardTestSuite {
+    @Autowired
+    private Board board;
+
 //    @Test
-//    public void testToDoList() {
+//    public void testConditional() {
 //        //Given
-//        ApplicationContext context = new AnnotationConfigApplicationContext("com.kodilla.spring");
-//
+//        ApplicationContext context = new AnnotationConfigApplicationContext(BoardConfig.class);
 //        //When
-//        System.out.println("====Beans List=====>>");
-//        Arrays.stream(context.getBeanDefinitionNames())
-//                .forEach(System.out::println);
-//        System.out.println("<<===Beans List====");
-//        // Then
+//        boolean list2Exist = context.containsBean("inProgressList");
+//        //Then
+//        System.out.println("bean inProgressList was found" + list2Exist);
 //    }
     @Test
-    public void testConditional() {
+    public void testToDoList() {
         //Given
-        ApplicationContext context = new AnnotationConfigApplicationContext(BoardConfig.class);
         //When
-        boolean list2Exist = context.containsBean("inProgressList");
+        board.getToDoList().getTasks().add("TODO1");
+        board.getInProgressList().getTasks().add("INPROG1");
+        board.getDoneList().getTasks().add("DON1");
         //Then
-        System.out.println("bean inProgressList was found" + list2Exist);
+        Assert.assertEquals("TODO1", board.getToDoList().getTasks().get(0));
+        Assert.assertEquals("INPROG1", board.getInProgressList().getTasks().get(0));
+        Assert.assertEquals("DON1", board.getDoneList().getTasks().get(0));
+
     }
 
 }

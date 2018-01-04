@@ -13,7 +13,15 @@ import java.util.List;
 public class BoardConfig {
     @Autowired
     @Qualifier("toDoList")
-    TaskList taskList;
+    private TaskList toDoList;
+
+    @Autowired
+    @Qualifier("inProgressList")
+    private TaskList inProgressList;
+
+    @Autowired
+    @Qualifier("doneList")
+    private TaskList doneList;
 
     @Bean(name = "toDoList")
     @Scope("prototype")
@@ -21,8 +29,8 @@ public class BoardConfig {
        return new TaskList("toDoList");
     }
 
-   @Bean(name = "inProgressList")
-   @Scope("prototype")
+    @Bean(name = "inProgressList")
+    @Scope("prototype")
     public TaskList getTaskList2() {
        return new TaskList("inProgressList");
    }
@@ -31,6 +39,11 @@ public class BoardConfig {
    @Scope("prototype")
     public TaskList getTaskList3() {
        return new TaskList("doneList");
+   }
+
+   @Bean
+   public Board getBoard() {
+        return new Board(toDoList, inProgressList, doneList);
    }
 
 }

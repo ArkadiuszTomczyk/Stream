@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TaskList {
     final String name;
-    public List<String> task = new ArrayList<>();
+    public List<String> tasks = new ArrayList<>();
 
 
     public TaskList(String name) {
@@ -16,15 +16,15 @@ public class TaskList {
         return name;
     }
 
-    public List<String> getTask() {
-        return task;
+    public List<String> getTasks() {
+        return tasks;
     }
 
     @Override
     public String toString() {
         return "TaskList{" +
                 "name='" + name + '\'' +
-                ", task=" + task +
+                ", task=" + tasks +
                 '}';
     }
 }

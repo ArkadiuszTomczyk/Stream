@@ -20,15 +20,16 @@ public class FlightService {
                 .collect(Collectors.toList());
     }
     public List<Flight1> getFlight1sVia(String via, String arrival) {
-        return flight1s.stream()
-                .filter(g ->g.getArrival().equals(flight1s))
-                .collect(Collectors.toList());
+        List<Flight1> result = getFlight1sTo(via);
+        result.addAll(getFlight1sTo(arrival));
+        return result;
+
     }
 
     public FlightService(){
         flight1s.add(new Flight1("ALASKA", "Berlin"));
         flight1s.add(new Flight1("Las vegas", "ALASKA"));
-        flight1s.add(new Flight1("Las Angeles", "Berlin"));
+        flight1s.add(new Flight1("Berlin", "Las Angeles"));
         flight1s.add(new Flight1("Moscow", "Las vegas"));
         flight1s.add(new Flight1("Warszawa", "Moscow"));
     }
@@ -47,11 +48,4 @@ public class FlightService {
         return flight1s != null ? flight1s.equals(that.flight1s) : that.flight1s == null;
     }
 
-    public static void main (String[] args) {
-        Flight1 flight1 = new Flight1("Berlin", "Moscow");
-        flight1.getArrival().hashCode();
-
-
-        System.out.println("Flight" );
-    }
 }

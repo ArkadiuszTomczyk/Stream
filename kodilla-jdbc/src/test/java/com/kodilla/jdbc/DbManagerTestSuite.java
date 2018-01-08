@@ -57,14 +57,13 @@ public class DbManagerTestSuite {
         int counter = 0;
         while (rs.next()) {
             counter ++;
-            if (counter >= 2) {
-                System.out.println(rs.getInt("uPOSTS_NUMBER") + "," +
-                        rs.getString("FIRSTNAME") + "," +
-                        rs.getString("LASTNAME"));
+            {       System.out.println(rs.getInt("uPOSTS_NUMBER") + "," +
+                    rs.getString("FIRSTNAME") + "," +
+                    rs.getString("LASTNAME"));
             }
         }
         rs.close();
         statement.close();
-        Assert.assertEquals(1, counter);
+        Assert.assertEquals(2, counter);
     }
 }

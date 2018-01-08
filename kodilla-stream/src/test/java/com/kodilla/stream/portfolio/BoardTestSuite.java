@@ -49,7 +49,7 @@ public class BoardTestSuite {
                 LocalDate.now(),
                 LocalDate.now().plusDays(5));
         Task task6 = new Task("Use Streams",
-                "use Streams rather than for-loops in predictions",
+                "use Streams rather than for-loops in predictors",
                 user4,
                 user2,
                 LocalDate.now().minusDays(15),

@@ -3,19 +3,19 @@ package com.kodilla.patterns.singleton;
 public final class SettingsFileEngine {
     private static SettingsFileEngine settingsFileEngineInstance = null;
     private String fileName = "";
-    private SettingsFileEngine(){
 
+    private SettingsFileEngine() {
+    }
+
+    public static SettingsFileEngine getInstance() {
+        if (settingsFileEngineInstance == null) {
+            settingsFileEngineInstance = new SettingsFileEngine();
+        }
+        return settingsFileEngineInstance;
     }
 
     public String getFileName() {
         return fileName;
-    }
-    public static SettingsFileEngine getInstance() {
-        if (settingsFileEngineInstance == null) {
-            settingsFileEngineInstance = new SettingsFileEngine();
-
-        }
-        return settingsFileEngineInstance;
     }
 
     public void open(final String fileName) {

@@ -48,7 +48,7 @@ public class DbManagerTestSuite {
                 "FROM uposts P, USERS U\n" +
                 "WHERE P.USER_ID = U.ID\n" +
                 "GROUP BY P.USER_ID\n" +
-                "HAVING COUNT(*) <= 2;" +
+                "HAVING COUNT(*) > 2;" +
                 "\n";
         Statement statement = dbManager.getConnection().createStatement();
         ResultSet rs = statement.executeQuery(sqlQuery);

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.FlightTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-09T21:32:22" hostname="DESKTOP-M8OJLM8" time="0.01">
+  <properties/>
+  <testcase name="testFindFlight" classname="test.FlightTestSuite" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

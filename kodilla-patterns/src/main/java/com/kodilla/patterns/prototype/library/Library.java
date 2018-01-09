@@ -38,17 +38,17 @@ public final class Library extends Prototype {
         return (Library)super.clone();
     }
 
-    public Library deepCopy() throws CloneNotSupportedException {
-        Library clonedLibrary = (Library)super.clone();
-        clonedLibrary.books = new HashSet<>();
-        for (Book theBooks : books) {
-            BooksList clonedList = new BooksList(theBooks.getName());
-            for (Book book : theBooks.getBooks() {
-                clonedLibrary.getBooks().add(book);
-            }
-            clonedLibrary.getBooks().add(clonedList);
-        }
-        return clonedLibrary;
+//    public Library deepCopy() throws CloneNotSupportedException {
+//        Library clonedLibrary = (Library)super.clone();
+//        clonedLibrary.books = new HashSet<>();
+//        for (Book theBooks : books) {
+//            BooksList clonedList = new BooksList(theBooks.getName());
+//            for (Book book : theBooks.getBooks() {
+//                clonedLibrary.getBooks().add(book);
+//            }
+//            clonedLibrary.getBooks().add(clonedList);
+//        }
+//        return clonedLibrary;
 
-    }
+//    }
 }

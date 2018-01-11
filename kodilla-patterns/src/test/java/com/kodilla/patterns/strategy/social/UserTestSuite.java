@@ -20,9 +20,9 @@ public class UserTestSuite {
         System.out.println("Bob should" + bobShouldUse);
 
         //Then
-        Assert.assertEquals("[Millenials] Use Facebook", jackShouldUse);
-        Assert.assertEquals("[Zgeneration] Use Twitter", dogShouldUse);
-        Assert.assertEquals("[YGeneration] Use Snapchat", bobShouldUse);
+        Assert.assertEquals("We use Facebook", jackShouldUse);
+        Assert.assertEquals("Jane Seimour", dogShouldUse);
+        Assert.assertEquals("we use twitter", bobShouldUse);
     }
 
     @Test
@@ -38,6 +38,6 @@ public class UserTestSuite {
         System.out.println("Jack now should:" + jachShouldUse);
 
         //Then
-        Assert.assertEquals("[Twitter] is  life", jachShouldUse);
+        Assert.assertEquals("we use twitter", jachShouldUse);
     }
 }

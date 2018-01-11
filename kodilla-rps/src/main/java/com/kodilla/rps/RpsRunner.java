@@ -5,21 +5,12 @@ import java.util.Scanner;
 
 public class RpsRunner {
 
-//    private boolean typeYourName (Scanner String) {
-//        System.out.println("Enter NUMBER OF PLAY ");
-//        switch (String.next()) {
-//            case java.lang.String.valueOf(typeYourName("name")):
-//                System.out.println("Hello");
-//                while (typeYourName("Enter NUMBER OF PLAY "))
-//                return true;
-//            case "":
-//                return true;
-//        }
-//        return true;
-//    }
-
-
-
+    private boolean typeYourName (Scanner scanner) {
+        System.out.println("enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Welcome " + name);
+        return true;
+    }
 
     private boolean playAgain(Scanner scanner){
         System.out.println("Want play a game (Y) or  (N) ?");
@@ -52,8 +43,11 @@ public class RpsRunner {
         return false;
     }
     public static void main (String[] args) {
+
         RpsRunner rpsRunner = new RpsRunner();
+
         Scanner scanner = new Scanner(System.in);
+        rpsRunner.typeYourName(scanner);
         rpsRunner.playAgain(scanner);
     }
 }

@@ -13,7 +13,7 @@ public class Logger {
 
     public void log(String log) {
         lastLog = log;
-        log = "janko";
+        System.out.println("Log: " + log);
 
     }
 

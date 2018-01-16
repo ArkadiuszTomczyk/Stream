@@ -29,6 +29,7 @@ public final class Task {
     public int getId() {
         return id;
     }
+
     @Column(name = "DESCRIPTION")
     public String getDescription() {
         return description;
@@ -39,6 +40,7 @@ public final class Task {
     public Date getCreated() {
         return created;
     }
+
     @Column(name = "DURATION")
     public int getDuration() {
         return duration;

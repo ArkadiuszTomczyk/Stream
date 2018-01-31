@@ -2,12 +2,16 @@ package com.kodilla.hibernate.manytomany.dao;
 
 import com.kodilla.hibernate.manytomany.Company;
 import com.kodilla.hibernate.manytomany.Employee;
+import com.kodilla.hibernate.taskList.TaskList;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.omg.CORBA.CODESET_INCOMPATIBLE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -60,6 +64,58 @@ public class CompanyDaoTestSuite {
             //    //do nothing
             //}
         }
+
+    @Test
+    public void ExerciseTestSuite() {
+        //Given
+        Employee employee1 = new Employee("John ", "S");
+        Employee employee3 = new Employee("karl ", "c");
+        Employee employee2 = new Employee("wlad ", "b");
+
+        Company cmd1 = new Company(new String("malbork"));
+        Company cmd2 = new Company(new String("pasy"));
+        Company cmd3 = new Company(new String("gdudzien"));
+
+        employee1.setCompanies(cmd1);
+        employee2.setCompanies(cmd2);
+        employee3.setCompanies(cmd3);
+
+        Company company = new Company( "something");
+        company.getEmployees().add(employee1);
+        company.getEmployees().add(employee2);
+        company.getEmployees().add(employee3);
+
+        employee1.setCompanies(cmd1);
+        employee2.setCompanies(cmd2);
+        employee3.setCompanies(cmd3);
+
+        companyDao.save(company);
+        int id = company.getId();
+
+        //When
+        List<Employee> FirstName = employee1.findByNameMatches;
+
+
+
+
+        //Then
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //When
+
+
+    }
 
 
 }

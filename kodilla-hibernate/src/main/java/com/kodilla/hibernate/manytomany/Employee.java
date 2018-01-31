@@ -7,6 +7,7 @@ import java.util.List;
 //@NamedQuery(
 //        name = "Task.retrieveLongTasks",
 //        query = "FROM Employee WHERE name ")
+//SELECT Name FROM Employees WHERE Name REGEXP '^[B].*$'
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {

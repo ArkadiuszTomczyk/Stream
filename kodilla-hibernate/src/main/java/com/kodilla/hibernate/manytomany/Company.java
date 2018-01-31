@@ -4,7 +4,9 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-
+@NamedQuery(
+        name = "Task.findByNameMatches",
+        query = "SELECT Name FROM Company WHERE name REGEXP '^[B].*$' ")
 @Entity
 @Table(name = "COMPANIES")
 public class Company {

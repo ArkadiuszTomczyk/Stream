@@ -10,7 +10,7 @@ import java.util.List;
 public class Company {
     private int id;
     private String name;
-    private List<Company> employees = new ArrayList<>();
+    private List<Employee> employees = new ArrayList<>();
 
 
     public Company() {
@@ -44,11 +44,11 @@ public class Company {
     }
 
     @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
-    public List<Company> getEmployees() {
+    public List<Employee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<Company> employess) {
+    public void setEmployees(List<Employee> employess) {
         this.employees = employess;
     }
 }

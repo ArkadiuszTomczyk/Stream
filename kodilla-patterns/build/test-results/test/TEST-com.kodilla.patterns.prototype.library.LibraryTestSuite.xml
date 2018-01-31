@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-31T07:22:40" hostname="DESKTOP-M8OJLM8" time="0.005">
+  <properties/>
+  <testcase name="testGetBoosk" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.005"/>
+  <system-out><![CDATA[  List [big]
+Book{title='waeer', author='jhjkl;ohn', publicationDate=1999-11-11}
+Book{title='Atlas', author='john', publicationDate=1999-11-11}
+  List [Project number 2]
+Book{title='waeer', author='jhjkl;ohn', publicationDate=1999-11-11}
+Book{title='Atlas', author='john', publicationDate=1999-11-11}
+  List [Project number 3]
+Book{title='waeer', author='jhjkl;ohn', publicationDate=1999-11-11}
+Book{title='Atlas', author='john', publicationDate=1999-11-11}
+Book{title='kjhg', author='poiuyt', publicationDate=1999-11-11}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -66,7 +66,7 @@ public class CompanyDaoTestSuite {
         }
 
     @Test
-    public void ExerciseTestSuite() {
+    public void FindEmployeeByNameTestSuite() {
         //Given
         Employee employee1 = new Employee("John ", "S");
         Employee employee3 = new Employee("karl ", "c");
@@ -76,43 +76,19 @@ public class CompanyDaoTestSuite {
         Company cmd2 = new Company(new String("pasy"));
         Company cmd3 = new Company(new String("gdudzien"));
 
-        employee1.setCompanies(cmd1);
-        employee2.setCompanies(cmd2);
-        employee3.setCompanies(cmd3);
+        employee1.getCompanies().add(cmd1);
+        employee2.getCompanies().add(cmd2);
+        employee3.getCompanies().add(cmd3);
 
-        Company company = new Company( "something");
-        company.getEmployees().add(employee1);
-        company.getEmployees().add(employee2);
-        company.getEmployees().add(employee3);
-
-        employee1.setCompanies(cmd1);
-        employee2.setCompanies(cmd2);
-        employee3.setCompanies(cmd3);
-
-        companyDao.save(company);
-        int id = company.getId();
+        cmd1.getEmployees().add(employee1);
+        cmd2.getEmployees().add(employee2);
+        cmd3.getEmployees().add(employee3);
 
         //When
-        List<Employee> FirstName = employee1.findByNameMatches;
-
-
-
+        List<Employee> Name = companyDao.retrieveEmployeeName();
 
         //Then
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //When
+        Assert.assertEquals("John", Name);
 
 
     }

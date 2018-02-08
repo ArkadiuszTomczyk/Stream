@@ -3,10 +3,12 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-
-@NamedQuery(
-        name = "Task.retrieveLongTasks",
-        query = "FROM Employee WHERE name")
+@NamedQueries({
+        @NamedQuery(
+                name = "Employee.findByNameMatches",
+                query = "FROM Employee Where name"
+        )
+})
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {

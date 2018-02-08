@@ -4,9 +4,15 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-@NamedQuery(
-        name = "Task.findByNameMatches",
-        query = "FROM Company WHERE name LIKE :MAL")
+@NamedQueries({
+        @NamedQuery(
+                name = "Company.findByNameMatches",
+                query = "FROM Company WHERE name LIKE :MAL"),
+        @NamedQuery(
+                name = "Company.retrieveByName",
+                query = "FROM Company WHERE name ")
+})
+//@NamedQuery(name = "Task.")
 @Entity
 @Table(name = "COMPANIES")
 public class Company {

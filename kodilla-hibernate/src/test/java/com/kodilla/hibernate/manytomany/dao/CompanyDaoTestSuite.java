@@ -85,7 +85,7 @@ public class CompanyDaoTestSuite {
         cmd3.getEmployees().add(employee3);
 
         //When
-        List<Employee> Name = companyDao.retrieveEmployeeName();
+        List<Company> Name = companyDao.retrieveByName();
 
         //Then
         Assert.assertEquals("John", Name);

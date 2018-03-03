@@ -7,10 +7,10 @@ import java.util.List;
 @NamedQueries({
         @NamedQuery(
                 name = "Company.findByNameMatches",
-                query = "FROM Company WHERE name LIKE :MAL"),
+                query = "FROM Company WHERE name LIKE: MAL"),
         @NamedQuery(
                 name = "Company.retrieveByName",
-                query = "FROM Company WHERE name ")
+                query = "FROM Company WHERE name LIKE :WLA ")
 })
 //@NamedQuery(name = "Task.")
 @Entity
@@ -20,9 +20,7 @@ public class Company {
     private String name;
     private List<Employee> employees = new ArrayList<>();
 
-
     public Company() {
-
     }
 
     public Company(String name) {

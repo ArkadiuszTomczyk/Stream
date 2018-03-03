@@ -90,7 +90,5 @@ public class TaskListDaoTestSuite {
             taskListDao.delete(id);
         }
     }
-
-
 }
 

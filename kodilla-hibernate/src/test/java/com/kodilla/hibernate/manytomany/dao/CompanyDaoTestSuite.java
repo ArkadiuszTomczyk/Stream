@@ -89,9 +89,5 @@ public class CompanyDaoTestSuite {
 
         //Then
         Assert.assertEquals("John", Name);
-
-
     }
-
-
 }

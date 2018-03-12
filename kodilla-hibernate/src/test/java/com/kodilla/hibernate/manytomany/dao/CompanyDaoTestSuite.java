@@ -18,6 +18,8 @@ import java.util.List;
 public class CompanyDaoTestSuite {
     @Autowired
     CompanyDao companyDao;
+    @Autowired
+    EmployeeDao employeeDao;
 
     @Test
     public void testSaveManyToMany(){
@@ -84,10 +86,28 @@ public class CompanyDaoTestSuite {
         cmd2.getEmployees().add(employee2);
         cmd3.getEmployees().add(employee3);
 
+        employeeDao.save(employee1);
+        employeeDao.save(employee2);
+        employeeDao.save(employee3);
+
+        companyDao.save(cmd1);
+        companyDao.save(cmd2);
+        companyDao.save(cmd3);
+
         //When
-        List<Company> Name = companyDao.retrieveByName();
+        List<Company> companies = companyDao.retrieveByName("pas%");
 
         //Then
-        Assert.assertEquals("John", Name);
+        Assert.assertEquals(2, companies.size());
+
+        companyDao.delete(cmd1.getId());
+        companyDao.delete(cmd2.getId());
+        companyDao.delete(cmd3.getId());
+
+//        employeeDao.delete(employee1.getId());
+//        employeeDao.delete(employee2.getId());
+//        employeeDao.delete(employee3.getId());
+
+
     }
 }

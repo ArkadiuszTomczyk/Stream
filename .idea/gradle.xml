@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/kodilla-exception" />
             <option value="$PROJECT_DIR$/kodilla-good-patterns" />
+            <option value="$PROJECT_DIR$/kodilla-hibernate" />
             <option value="$PROJECT_DIR$/kodilla-jdbc" />
             <option value="$PROJECT_DIR$/kodilla-patterns" />
             <option value="$PROJECT_DIR$/kodilla-rps" />
@@ -32,6 +33,18 @@
             <option value="$PROJECT_DIR$/kodilla-hibernate" />
           </set>
         </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
+        <option name="gradleHome" value="C:/gradle-4.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kodilla-patterns2" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />

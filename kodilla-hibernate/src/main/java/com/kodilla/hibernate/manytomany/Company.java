@@ -7,10 +7,10 @@ import java.util.List;
 @NamedQueries({
         @NamedQuery(
                 name = "Company.findByNameMatches",
-                query = "FROM Company WHERE name LIKE: MAL"),
+                query = "FROM Company WHERE name LIKE :NAME"),
         @NamedQuery(
                 name = "Company.retrieveByName",
-                query = "FROM Company WHERE name LIKE :WLA ")
+                query = "FROM Company WHERE name LIKE :NAME ")
 })
 //@NamedQuery(name = "Task.")
 @Entity

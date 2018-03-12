@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 @NamedQueries({
         @NamedQuery(
-                name = "Employee.findByNameMatches",
-                query = "FROM Employee Where name"
+                name = "Employee.retrieveEmployeeName",
+                query = "FROM Employee Where name = :NAME"
         )
 })
 @Entity

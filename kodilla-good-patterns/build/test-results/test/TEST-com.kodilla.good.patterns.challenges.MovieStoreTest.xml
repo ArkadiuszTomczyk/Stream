@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.good.patterns.challenges.MovieStoreTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-09T21:32:24" hostname="DESKTOP-M8OJLM8" time="0.012">
+<testsuite name="com.kodilla.good.patterns.challenges.MovieStoreTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-30T21:21:53" hostname="DESKTOP-M8OJLM8" time="0.012">
   <properties/>
   <testcase name="testGetMovies" classname="com.kodilla.good.patterns.challenges.MovieStoreTest" time="0.012"/>
   <system-out><![CDATA[Ĺ»elazny CzĹ‚owiek!Iron Man!MĹ›ciciele!Avengers!BĹ‚yskawica!Flash

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.forum.statistics.TestStatistics" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-01-31T07:22:46" hostname="DESKTOP-M8OJLM8" time="0.244">
+<testsuite name="com.kodilla.testing.forum.statistics.TestStatistics" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-03-30T21:29:10" hostname="DESKTOP-M8OJLM8" time="0.149">
   <properties/>
-  <testcase name="testCommentsLessThanPosts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.24"/>
+  <testcase name="testCommentsLessThanPosts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.145"/>
   <testcase name="testOf1000Posts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.001"/>
-  <testcase name="testCommentsMoreThanPosts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.0"/>
+  <testcase name="testCommentsMoreThanPosts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.001"/>
   <testcase name="testZeroPosts" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.0"/>
-  <testcase name="testOfUsersZero" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.001"/>
+  <testcase name="testOfUsersZero" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.0"/>
   <testcase name="test100Users" classname="com.kodilla.testing.forum.statistics.TestStatistics" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

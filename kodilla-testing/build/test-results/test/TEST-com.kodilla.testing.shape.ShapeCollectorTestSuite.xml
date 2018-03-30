@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-01-31T07:22:46" hostname="DESKTOP-M8OJLM8" time="0.003">
+<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-03-30T21:29:10" hostname="DESKTOP-M8OJLM8" time="0.012">
   <properties/>
-  <testcase name="testQuantityOfUsers" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.003"/>
+  <testcase name="testQuantityOfUsers" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.012"/>
   <testcase name="testQuantityOfPosts" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
   <system-out><![CDATA[Circle{name ='koĹ‚o', radius = 5.0}
 Triangle{name ='trĂłjkÄ…t', width = 15.0, heigh t= 47.0}

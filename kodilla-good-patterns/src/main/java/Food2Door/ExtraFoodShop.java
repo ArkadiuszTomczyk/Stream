@@ -1,9 +1,10 @@
 package Food2Door;
 
 import java.util.Random;
-import java.util.function.Supplier;
 
 public class ExtraFoodShop implements Supplier {
+
+
     @Override
     public String getSupplierName() {
         return "ExtraFoodS";

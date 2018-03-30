@@ -17,11 +17,12 @@ public class CompanyFacade {
 
     @Autowired
     private CompanyDao companyDao;
-
-    @Autowired
-    private EmployeeDao employeeDao;
+//
+//    @Autowired
+//    private EmployeeDao employeeDao;
 
     private final List<Company> findByNameMatches = new ArrayList<>();
+
     public void addCompany(final Company company) {
         company.getEmployees();
     }

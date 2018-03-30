@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.calc.Calc" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-31T07:22:46" hostname="DESKTOP-M8OJLM8" time="0.002">
+<testsuite name="com.kodilla.testing.calc.Calc" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-30T21:29:10" hostname="DESKTOP-M8OJLM8" time="0.001">
   <properties/>
-  <testcase name="testAdd" classname="com.kodilla.testing.calc.Calc" time="0.002"/>
+  <testcase name="testAdd" classname="com.kodilla.testing.calc.Calc" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

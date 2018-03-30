@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf509333-9e25-4810-821f-db9c05e415b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_23_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing2/kodilla-testing2_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing2/kodilla-testing2_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/classes/main/Food2Door/ExtraFoodShop.class" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/classes/main/Food2Door/ExtraFoodShop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/libs/kodilla-good-patterns.jar" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/libs/kodilla-good-patterns.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/Food2Door/ExtraFoodShop.class" afterPath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/Food2Door/ExtraFoodShop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/out/test/classes/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" afterPath="$PROJECT_DIR$/kodilla-hibernate/out/test/classes/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/classes/com.kodilla.good.patterns.challenges.MovieStoreTest.html" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/classes/com.kodilla.good.patterns.challenges.MovieStoreTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/packages/com.kodilla.good.patterns.challenges.html" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/reports/tests/test/packages/com.kodilla.good.patterns.challenges.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/build/test-results/test/TEST-com.kodilla.good.patterns.challenges.MovieStoreTest.xml" afterPath="$PROJECT_DIR$/kodilla-good-patterns/build/test-results/test/TEST-com.kodilla.good.patterns.challenges.MovieStoreTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/ExtraFoodShop.java" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/ExtraFoodShop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/Supplier.java" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/Food2Door/Supplier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/CompanyFacade.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/CompanyFacade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/adapter/bookclassifier/MedianAdapterTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/adapter/bookclassifier/MedianAdapterTestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.calc.Calc.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.calc.Calc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.calc.UserTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.calc.UserTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.collection.CollectionTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.collection.CollectionTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.forum.statistics.TestStatistics.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.forum.statistics.TestStatistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.forum.tdd.ForumTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.forum.tdd.ForumTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.library.BookDirectoryTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.library.BookDirectoryTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.shape.ShapeCollectorTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.shape.ShapeCollectorTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.weather.mock.WeatherForecastTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.weather.mock.WeatherForecastTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.weather.stub.WeatherForecastTestSuite.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/classes/com.kodilla.testing.weather.stub.WeatherForecastTestSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.calc.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.calc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.collection.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.collection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.forum.statistics.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.forum.statistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.forum.tdd.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.forum.tdd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.library.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.shape.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.weather.mock.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.weather.mock.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.weather.stub.html" afterPath="$PROJECT_DIR$/kodilla-testing/build/reports/tests/test/packages/com.kodilla.testing.weather.stub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.calc.Calc.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.calc.Calc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.calc.UserTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.calc.UserTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.collection.CollectionTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.collection.CollectionTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.forum.statistics.TestStatistics.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.forum.statistics.TestStatistics.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.forum.tdd.ForumTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.forum.tdd.ForumTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.library.BookDirectoryTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.library.BookDirectoryTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.shape.ShapeCollectorTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.shape.ShapeCollectorTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.weather.mock.WeatherForecastTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.weather.mock.WeatherForecastTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.weather.stub.WeatherForecastTestSuite.xml" afterPath="$PROJECT_DIR$/kodilla-testing/build/test-results/test/TEST-com.kodilla.testing.weather.stub.WeatherForecastTestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -204,8 +116,8 @@
       <file leaf-file-name="EBayTestingApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="147">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3218,8 +3130,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="394" />
+    <option name="x" value="356" />
+    <option name="y" value="448" />
     <option name="width" value="1454" />
     <option name="height" value="933" />
   </component>
@@ -3742,7 +3654,7 @@
       <workItem from="1520875355151" duration="2517000" />
       <workItem from="1521759504387" duration="1469000" />
       <workItem from="1522090378518" duration="32492000" />
-      <workItem from="1522433207652" duration="10375000" />
+      <workItem from="1522433207652" duration="10888000" />
     </task>
     <servers />
   </component>
@@ -3779,7 +3691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="543033000" />
+    <option name="totallyTimeSpent" value="543546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3791,7 +3703,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="394" width="1454" height="933" extended-state="0" />
+    <frame x="356" y="448" width="1454" height="933" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3810,7 +3722,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4993679" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4993679" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44247788" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4247,8 +4159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="147">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

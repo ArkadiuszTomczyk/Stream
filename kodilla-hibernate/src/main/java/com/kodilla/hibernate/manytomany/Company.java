@@ -4,15 +4,14 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-@NamedQueries({
-        @NamedQuery(
-                name = "Company.findByNameMatches",
-                query = "FROM Company WHERE name LIKE :NAME"),
-        @NamedQuery(
-                name = "Company.retrieveByName",
-                query = "FROM Company WHERE name LIKE :NAME ")
-})
-//@NamedQuery(name = "Task.")
+
+
+@NamedNativeQuery(
+        name = "Company.retrieveComapniesWithThreeWordsForParam",
+        query = "SELECT * FROM companies " +
+                "WHERE COMPANY_NAME LIKE :ARG",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -30,13 +29,9 @@ public class Company {
     @Id
     @GeneratedValue
     @NotNull
-    @Column(name = "COMPANY_ID")
+    @Column(name = "COMPANY_ID", unique = true)
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @NotNull
@@ -44,17 +39,24 @@ public class Company {
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
     public List<Employee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<Employee> employess) {
-        this.employees = employess;
+    private void setEmployees(List<Employee> employees) {
+        this.employees = employees;
+    }
+
+    private void setId(int id) {
+        this.id = id;
+    }
+
+    private void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmployee(Employee employee){
+        this.employees = employees;
     }
 }

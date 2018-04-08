@@ -1,7 +1,7 @@
 package com.kodilla.patterns2.adapter.bookclassifier;
 
-import com.kodilla.patterns2.adapter.bookclasifier.MedianAdapter;
-import com.kodilla.patterns2.adapter.bookclasifier.libraryb.Book;
+//import com.kodilla.patterns2.adapter.bookclasifier.MedianAdapter;
+//import com.kodilla.patterns2.adapter.bookclasifier.libraryb.Book;
 import org.junit.Test;
 
 import java.util.Set;
@@ -9,8 +9,8 @@ import java.util.Set;
 import static org.junit.Assert.assertEquals;
 
 public class MedianAdapterTestSuite {
-    @Test
-    public void publicationYearMedianTest() {
+//    @Test
+//    public void publicationYearMedianTest() {
 //        //Given
 //        Book book = new Book();
 //        MedianAdapter medianAdapter = new MedianAdapter();
@@ -21,5 +21,5 @@ public class MedianAdapterTestSuite {
 //        System.out.println(medianYear);
 //        assertEquals( medianYear, 2000, 0);
 
-    }
+//    }
 }

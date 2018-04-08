@@ -13,9 +13,7 @@ import java.util.List;
 @Transactional
 @Repository
 public interface CompanyDao extends CrudRepository<Company, Integer> {
-    @Query
-    List<Company> findByNameMatches(@Param("NAME") String name);
 
-    @Query
-    List<Company> retrieveByName(@Param("NAME") String name);
-}
+        @Query(nativeQuery = true)
+        List<Company> retrieveComapniesWithThreeWordsForParam(@Param("ARG") String arg);
+    }

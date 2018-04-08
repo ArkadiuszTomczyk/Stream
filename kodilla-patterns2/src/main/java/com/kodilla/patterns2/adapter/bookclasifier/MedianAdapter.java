@@ -2,21 +2,21 @@ package com.kodilla.patterns2.adapter.bookclasifier;
 
 import com.kodilla.patterns2.adapter.bookclasifier.librarya.Book;
 import com.kodilla.patterns2.adapter.bookclasifier.librarya.Classifier;
+import com.kodilla.patterns2.adapter.bookclasifier.libraryb.BookSignature;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-//public class MedianAdapter extends MedianAdaptee implements Classifier {
-////    @Override
-////    public int publicationYeaMedian(Set<Book> bookSet) {
-////        List<Book> bookList = new ArrayList<>();
-////        for (int n=0; n< bookSet.size(); n++) {
-////            bookList.add(new Book("", "", 2000, "") {
-////
-////                    new Book(String[n]);
-////            }
-////        return 0;
-////        }
-//    }
-//}
+public class MedianAdapter extends MedianAdaptee implements Classifier {
+    @Override
+    public int publicationYearMedian(Set<com.kodilla.patterns2.adapter.bookclasifier.librarya.Book> bookSet) {
+        Map<BookSignature, com.kodilla.patterns2.adapter.bookclasifier.libraryb.Book> booksMap = new HashMap<>();
+        int median = 0;
+        for (com.kodilla.patterns2.adapter.bookclasifier.librarya.Book book : bookSet) {
+            booksMap.put(new BookSignature(book.getSignature()), new com.kodilla.patterns2.adapter.bookclasifier.
+                    libraryb.Book(book.getAuthor(), book.getTitle(), book.getPublicationYear()));
+            median = medianPublicationYear(booksMap);
+        }
+        return median;
+    }
+}
+

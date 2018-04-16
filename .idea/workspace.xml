@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf509333-9e25-4810-821f-db9c05e415b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-jdbc/out/test/classes/com/kodilla/jdbc/StoredProcTestSuite.class" afterPath="$PROJECT_DIR$/kodilla-jdbc/out/test/classes/com/kodilla/jdbc/StoredProcTestSuite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -106,39 +102,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudAppTestSuite.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CrudAppTestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
+            <state relative-caret-position="226">
+              <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudAppTestingApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="89" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookTestingApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4765#4766#0" expanded="true" />
+                <element signature="e#4795#4796#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3125,8 +3097,8 @@
         <option value="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/facebook/F2.java" />
         <option value="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" />
         <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
       </list>
     </option>
   </component>
@@ -3136,11 +3108,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="108" />
-    <option name="y" value="253" />
-    <option name="width" value="1243" />
-    <option name="height" value="636" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="493" />
+    <option name="y" value="135" />
+    <option name="width" value="1343" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3457,7 +3429,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="IOEx&#9;PSI&#9;JAVA://java.io.IOException&#10;IOException&#9;PSI&#9;JAVA://java.io.IOException" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/tasks3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -3803,7 +3775,7 @@
       <workItem from="1523541964913" duration="1220000" />
       <workItem from="1523730106245" duration="30000" />
       <workItem from="1523880752469" duration="7669000" />
-      <workItem from="1523907507805" duration="513000" />
+      <workItem from="1523907507805" duration="4014000" />
     </task>
     <servers />
   </component>
@@ -3840,7 +3812,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565981000" />
+    <option name="totallyTimeSpent" value="569482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3852,7 +3824,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="493" y="135" width="1343" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3871,11 +3843,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08388521" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3807947" sideWeight="0.4926931" order="7" side_tool="false" content_ui="tabs" x="661" y="368" width="1259" height="293" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2593819" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42307693" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30113208" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -4229,9 +4201,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="-189">
           <caret line="9" column="89" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -4241,22 +4223,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
+        <state relative-caret-position="226">
+          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4765#4766#0" expanded="true" />
+            <element signature="e#4795#4796#0" expanded="true" />
           </folding>
         </state>
       </provider>
